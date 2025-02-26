@@ -576,7 +576,7 @@ Relationship between Training Loss and Validation Loss:
 
 ### Model Fluctuation with change in `Epoch`
 
-![alt text](image-18.png)
+![alt text](image-22.png)
 
 - Most configurations show an increase in performance during the initial epochs.
   
@@ -590,7 +590,7 @@ Relationship between Training Loss and Validation Loss:
 
 ### Model Fluctuation with change in `Learning Rate`
 
-![alt text](image-20.png)
+![alt text](image-25.png)
 
 - <b>Inferance</b>: As the learning rate increases, the performance of most configurations steadily `improves`.
 
@@ -599,7 +599,10 @@ Relationship between Training Loss and Validation Loss:
 ### Model Fluctuation with change in `Batch Size`
 ![alt text](image-21.png)
 
-- <b>Inferance</b>: As the batch size increases, the performance of most configurations have had `worsening`.
+**Observations from the Plot**
+- Performance **varies across different learning rates (1e-3, 1e-5)** and **epochs (1, 3, 5)**.
+- Larger batch sizes tend to show **decreasing or fluctuating performance**, especially for certain learning rates.
+- Smaller batch sizes (e.g., 2) show better performance in some cases, likely due to improved generalization.
 
 <div style="page-break-before: always;"></div>
 
